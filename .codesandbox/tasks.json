@@ -6,8 +6,8 @@
       "command": "npm install"
     },
     {
-      "command": "npm start",
-      "name": "npm start"
+      "name": "npm start",
+      "command": "npm start"
     }
   ],
 
@@ -16,7 +16,10 @@
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
     }
   }
 }
